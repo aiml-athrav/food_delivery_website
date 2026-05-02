@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container my-5 py-4 fade-in-up">
+    <h2 class="fw-bold mb-4">Order History</h2>
+
+    {% if orders %}
+    {% for order in orders %}
+    <div class="card shadow-sm border-0 rounded-4 mb-4">
+        <div class="card-body p-4">
+            <h5>Order #{{ order.id }} | {{ order.created_at }}</h5>
+            <p>Status: <span class="text-warning fw-bold">{{ order.status }}</span></p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in order['items'] %}
+                    <tr>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.quantity }}</td>
+                        <td>${{ "%.2f"|format(item.price_at_purchase) }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <p class="fw-bold">Total: ${{ "%.2f"|format(order.total_price) }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-body p-5 text-center">
+            <h4 class="text-muted mb-0">You have no past orders.</h4>
+            <p class="text-muted mt-2">Hungry? <a href="{{ url_for('menu') }}"
+                    class="text-warning text-decoration-none fw-bold">Order now</a>.</p>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,66 @@
+# ==========================================
+# Python & Flask
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+# Never commit environment config files containing secrets
+.env
+.env.*
+!.env.example
+secrets/
+keys/
+
+# ==========================================
+# Project Specific
+# ==========================================
+# Temporary, cached, or scraped data
+cookies.txt
+
+# ==========================================
+# Dependencies & Build
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Testing & Logs
+# ==========================================
+logs/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# OS & Editor
+# ==========================================
+# Windows/Mac generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
