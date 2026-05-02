@@ -32,15 +32,15 @@ Here are some previews of the application interface:
 
 | Demo 1 | Demo 2 |
 | :---: | :---: |
-| <img src="images/img1.png" alt="Demo 1" width="100%"> | <img src="images/img2.png" alt="Demo 2" width="100%"> |
+| <img src="images/img1.png" alt="landing page" width="100%"> | <img src="images/img2.png" alt="sign in page" width="100%"> |
 
 | Demo 3 | Demo 4 |
 | :---: | :---: |
-| <img src="images/img3.png" alt="Demo 3" width="100%"> | <img src="images/img4.png" alt="Demo 4" width="100%"> |
+| <img src="images/img3.png" alt="Menu section" width="100%"> | <img src="images/img4.png" alt="Orders section" width="100%"> |
 
 | Demo 5 | Demo 6 |
 | :---: | :---: |
-| <img src="images/img5.png" alt="Demo 5" width="100%"> | <img src="images/img6.png" alt="Demo 6" width="100%"> |
+| <img src="images/img5.png" alt="SQL database" width="100%"> | <img src="images/img6.png" alt="Admin dashboard" width="100%"> |
 
 ---
 
