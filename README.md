@@ -30,15 +30,15 @@ It provides an interactive, beautifully designed web-based interface where users
 
 Here are some previews of the application interface:
 
-| Demo 1 | Demo 2 |
+| landing page | sign in page |
 | :---: | :---: |
 | <img src="images/img1.png" alt="landing page" width="100%"> | <img src="images/img2.png" alt="sign in page" width="100%"> |
 
-| Demo 3 | Demo 4 |
+| Menu section | Orders section |
 | :---: | :---: |
 | <img src="images/img3.png" alt="Menu section" width="100%"> | <img src="images/img4.png" alt="Orders section" width="100%"> |
 
-| Demo 5 | Demo 6 |
+| SQL database |Admin dashboard |
 | :---: | :---: |
 | <img src="images/img5.png" alt="SQL database" width="100%"> | <img src="images/img6.png" alt="Admin dashboard" width="100%"> |
 
